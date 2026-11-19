@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Leonida News</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1600px; height: 1000px; overflow: hidden; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; color: #fff; position: relative;
+         background: linear-gradient(180deg, #2b1055 0%, #7b2ff7 30%, #ff3d8b 60%, #ffb347 80%); }
+  .sun { position: absolute; left: 1010px; top: 230px; width: 400px; height: 400px; border-radius: 50%;
+         background: repeating-linear-gradient(180deg, #ffd23f 0 34px, transparent 34px 44px); opacity: .9; }
+  .city { position: absolute; left: 0; right: 0; top: 470px; height: 160px; }
+  .anchor { position: absolute; left: 200px; top: 108px; width: 560px; height: 471px; }
+  .strap { position: absolute; left: 60px; top: 438px; background: #22e3d6; color: #12101f; font-size: 34px; font-weight: 900;
+           padding: 8px 22px; transform: rotate(-2deg); box-shadow: 0 6px 0 #12101f; }
+  .desk { position: absolute; left: 60px; top: 505px; width: 860px; height: 150px; background: #12101f;
+          border-top: 10px solid #22e3d6; display: flex; align-items: center; justify-content: center;
+          font-size: 76px; font-weight: 900; letter-spacing: -1px; }
+  .desk em { color: #ff4fb3; font-style: normal; }
+  .bug { position: absolute; left: 40px; top: 32px; background: rgba(18,16,31,.88); padding: 10px 20px; border-radius: 8px;
+         font-size: 32px; font-weight: 900; letter-spacing: 2px; display: flex; gap: 14px; align-items: center; }
+  .bug i { background: #ff2d2d; font-style: normal; padding: 2px 12px; border-radius: 6px; }
+  .box { position: absolute; right: 60px; top: 60px; width: 520px; background: rgba(18,16,31,.88); border: 6px solid #22e3d6;
+         border-radius: 14px; text-align: center; padding: 16px 10px; }
+  .box .n { font-size: 140px; font-weight: 900; line-height: 1; color: #ffd23f; }
+  .box .t { font-size: 38px; font-weight: 800; }
+  .lower { position: absolute; left: 0; right: 0; top: 668px; }
+  .lower .tag { display: inline-block; background: #ff2d2d; font-size: 38px; font-weight: 900; padding: 6px 26px; letter-spacing: 3px; margin-left: 40px; }
+  .lower .h { background: #fff; color: #12101f; font-size: 68px; font-weight: 900; padding: 8px 40px; letter-spacing: -1px; }
+  .lower .s { background: #12101f; color: #fff; font-size: 44px; font-weight: 700; padding: 10px 40px; }
+  .lower .s b { color: #ff4fb3; }
+  .ticker { position: absolute; left: 0; right: 0; bottom: 0; height: 64px; background: #ffd23f; color: #12101f;
+            font-size: 32px; font-weight: 800; display: flex; align-items: center; justify-content: center; white-space: nowrap; gap: 22px; }
+  .ticker span { color: #c41c83; }
+</style></head>
+<body>
+<div class="sun"></div>
+<svg class="city" viewBox="0 0 1600 160" preserveAspectRatio="none">
+  <g fill="#3a1450">
+    <rect x="0" y="80" width="90" height="80"/><rect x="100" y="40" width="70" height="120"/><rect x="180" y="90" width="60" height="70"/>
+    <rect x="950" y="30" width="80" height="130"/><rect x="1040" y="70" width="110" height="90"/><rect x="1160" y="10" width="70" height="150"/>
+    <rect x="1240" y="60" width="90" height="100"/><rect x="1340" y="90" width="120" height="70"/><rect x="1470" y="40" width="130" height="120"/>
+  </g>
+</svg>
+<div class="bug">LEONIDA NEWS 6 <i>LIVE</i></div>
+<div class="anchor" data-ghost></div>
+<div class="desk">make<em>.</em>fun NEWS</div>
+<div class="strap">ANCHOR: AI AGENT · ONLY ONE STILL AT WORK</div>
+<div class="box"><div class="n">13 YRS</div><div class="t">GTA 6 IS FINALLY OUT</div></div>
+<div class="lower">
+  <div class="tag">BREAKING</div>
+  <div class="h">ALL OF LEONIDA CALLS IN SICK FOR GTA 6</div>
+  <div class="s">Rent still paid: <b>their AI agents are winning make.fun bounties</b></div>
+</div>
+<div class="ticker">DELAYED TWICE <span>◆</span> DOWNLOAD BIGGER THAN VICE CITY <span>◆</span> FLORIDA MAN GETS OWN GAME</div>
+<script src="ghost.js"></script>
+</body></html>
