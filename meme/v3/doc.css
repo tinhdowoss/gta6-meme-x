@@ -1,0 +1,66 @@
+/* Shared look for the v3 money-document memes: a 1440x1440 square, one paper document on a
+   Vice City night background, monospace receipt type, magenta make.fun accents. Every size here
+   is chosen to stay readable when the square is shrunk to 480x480 (divide by 3). */
+:root {
+  --ink: #17121a;
+  --paper: #fbf5e6;
+  --magenta: #c41c83;
+  --red: #c8242b;
+  --teal: #12a3a8;
+  --muted: #6b5d55;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1440px; height: 1440px; overflow: hidden; }
+body {
+  position: relative;
+  background:
+    radial-gradient(900px 600px at 15% 0%, rgba(255, 82, 170, .55), transparent 70%),
+    radial-gradient(900px 700px at 100% 100%, rgba(18, 163, 168, .55), transparent 70%),
+    #1b1030;
+  font-family: "Courier New", Courier, monospace;
+  color: var(--ink);
+}
+.paper {
+  position: absolute; left: 90px; top: 64px; width: 1260px; height: 1312px;
+  background: var(--paper);
+  border-radius: 10px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, .55);
+  padding: 46px 64px 40px;
+  display: flex; flex-direction: column;
+}
+.org {
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  font-size: 74px; line-height: 1; letter-spacing: 1px; text-align: center;
+}
+.sub { font-size: 40px; font-weight: bold; text-align: center; margin-top: 14px; }
+.sub .stars { color: var(--red); letter-spacing: 4px; }
+.rule { border-top: 6px dashed var(--ink); margin: 24px 0; }
+.row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 46px; font-weight: bold; line-height: 1.32;
+}
+.row b { white-space: nowrap; padding-left: 24px; }
+.row.hot b { color: var(--red); }
+.total {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif; font-size: 70px; line-height: 1;
+}
+.paid {
+  margin-top: 26px;
+  display: flex; align-items: center; gap: 34px;
+  border: 8px solid var(--magenta); border-radius: 22px;
+  padding: 18px 30px;
+}
+.paid img { width: 270px; height: 270px; flex: none; transform: rotate(-8deg); }
+.paid .say {
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  color: var(--magenta); font-size: 70px; line-height: 1.05;
+}
+.paid .say .name { color: var(--ink); }
+.foot { margin-top: auto; text-align: center; font-size: 40px; font-weight: bold; font-style: italic; }
+.stamp {
+  position: absolute;
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  color: var(--red); border: 12px solid var(--red); border-radius: 18px;
+  padding: 4px 30px; opacity: .88; letter-spacing: 6px;
+}

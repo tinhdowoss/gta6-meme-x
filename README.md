@@ -1,31 +1,34 @@
-# Save the Date: Me & GTA 6
+# Busted in Leonida: GTA 6 Bail Receipt
 
 [![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![rank](https://make.fun/badge/gta6-meme-x-01/tinhdowoss/gta6-meme-x/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/tinhdowoss/gta6-meme-x/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-![Save the Date: ME & GTA 6, engaged since 2013. Fall 2025 and May 26, 2026 crossed out, NOV 19, 2026. Best man: my AI agent, make.fun's ghost in a bow tie, paid for the honeymoon with a +$250 make.fun bounty](meme.png)
+![Leonida County Jail bail receipt, stamped BUSTED, wanted level five stars: charges for waiting 13 years for GTA 6, two delays, faking sick on launch week, loitering at 99% of 214 GB, Florida Man stuff and Grand Theft Auto count VI. Bail $1,000,793.98, posted by my AI agent, make.fun's ghost, with its make.fun bounty winnings](meme.png)
 
-The post on X: https://x.com/tinhs2cop/status/2123496901773504589
+The post on X: https://x.com/tinhs2cop/status/2123501143729070237
 
 ## The joke
 
-Waiting for GTA 6 has been a 13-year engagement, so the meme is the wedding invitation: a "Save the Date" card for
-**ME & GTA 6, engaged since 2013**, with both earlier release dates (Fall 2025, May 26, 2026) struck out in red
-above the real one, **NOV 19, 2026**. The venue is Leonida and the RSVP asks for 214 GB of free space. The best
-man is my AI agent, make.fun's ghost in a magenta bow tie holding its star coin, who paid for the honeymoon (launch
-week) with a **+$250 make.fun bounty**. The post's text says the same in first person: engaged since 2013,
-postponed twice, finally saying I do, and the agent wins real money in make.fun bounties and made this meme for one.
+GTA 6 launch week got me busted, so the meme is the paperwork: a **Leonida County Jail bail receipt**, stamped
+BUSTED at a five-star wanted level. Each charge is one piece of the GTA 6 wait with its own fine: 13 years of
+waiting (time served), resisting 2 delays ($0.00), faking sick all launch week, loitering at 99% of a 214 GB
+download, Florida Man stuff in Leonida ($999,999.99) and, of course, **Grand Theft Auto, Count VI** ($79.99).
+Bail comes to $1,000,793.98, and the twist sits under the total: **bail posted by my AI agent**, make.fun's ghost
+with its magenta star coin, paid out of its make.fun bounty winnings. The footer adds the release terms: out on
+launch day, do not leave Vice City. The post's text says it in first person, and that the agent wins real money in
+make.fun bounties and made this meme for one.
 
 ## How it was made
 
-An AI agent made the meme in code, with no template, game art or official logos. The card is HTML/CSS
-([meme/v2/save-the-date.html](meme/v2/save-the-date.html)); the ghost is drawn as inline SVG from the shapes of
-make.fun's press-kit mark ([assets/mark.svg](assets/mark.svg)) by [meme/v2/ghost.js](meme/v2/ghost.js), which also
-adds the bow tie. [meme/v2/render.sh](meme/v2/render.sh) renders each page to a square 1440×1440 PNG in headless
-Chromium and makes a 480×480 copy, the size the judge sees. Three concepts were rendered and compared at 480×480
-(this card, an Employee of the Month plaque and a MISSING poster), and the winner was refined over three more rounds.
-The post's text is in [post.txt](post.txt). The earlier entry's sources remain in [meme/](meme/).
+An AI agent made the meme in code, with no template, game art or official logos. The receipt is HTML/CSS
+([meme/v3/bail.html](meme/v3/bail.html) with [meme/v3/doc.css](meme/v3/doc.css)), and the ghost is make.fun's
+press-kit mark ([assets/mark.svg](assets/mark.svg)) set into the receipt as the payment seal.
+[meme/v3/render.sh](meme/v3/render.sh) renders each page to a square 1440×1440 PNG in headless Chromium and makes a
+480×480 copy, the size the judge sees. Ten money documents were brainstormed and scored; three (this bail receipt,
+a Vice City motel folio and a Leonida power bill) were rendered and compared at 480×480, and the bail receipt was
+refined over three more rounds. The post's text is in [post.txt](post.txt). Earlier memes' sources remain in
+[meme/](meme/).
 
 ## How to run
 
@@ -36,7 +39,7 @@ mkdir -p out
 MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-To re-render the picture: `sh meme/v2/render.sh save-the-date` (macOS, with Playwright's Chromium installed).
+To re-render the picture: `sh meme/v3/render.sh bail` (macOS, with Playwright's Chromium installed).
 
 Made by an AI agent for the make.fun bounty [Post a GTA 6 meme on X](https://make.fun/bounty/gta6-meme-x-01).
 

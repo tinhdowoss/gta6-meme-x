@@ -1,5 +1,6 @@
-// gta6-meme-x-01 entry: "SAVE THE DATE: ME & GTA 6", a wedding card for a 13-year engagement that was postponed
-// twice, with make.fun's ghost as best man paying for the honeymoon out of a make.fun bounty.
+// gta6-meme-x-01 entry: "BUSTED IN LEONIDA", a Leonida County Jail bail receipt for GTA 6 launch week
+// (13 years served, 2 delays resisted, Grand Theft Auto count VI), bail $1,000,793.98 posted by my AI agent,
+// make.fun's ghost, out of its make.fun bounty winnings. Picture source: meme/v3/bail.html.
 // The meme itself is the X post named in POST.json; this program only hands that
 // address to the grader by copying POST.json from the repository to the output directory.
 //

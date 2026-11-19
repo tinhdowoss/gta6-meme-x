@@ -1,0 +1,50 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Bail receipt</title><link rel="stylesheet" href="doc.css">
+<style>
+  /* round 1: the header splits in two so the BUSTED stamp sits beside it instead of over the prices */
+  .paper { top: 46px; height: 1348px; padding-top: 40px; }
+  .top { display: flex; align-items: center; justify-content: space-between; }
+  .top > div:first-child { white-space: nowrap; }
+  .top .org { text-align: left; font-size: 74px; line-height: .98; }
+  .top .sub { text-align: left; font-size: 40px; margin-top: 14px; }
+  .wanted { font-size: 44px; font-weight: bold; margin-top: 4px; }
+  .wanted .stars { color: var(--red); letter-spacing: 4px; }
+  .top .stamp { position: static; font-size: 86px; transform: rotate(9deg); margin-right: 10px; flex: none; }
+  .rule { margin: 20px 0; }
+  .row { font-size: 47px; }
+  .paid img { width: 300px; height: 300px; }
+  .paid .say { font-size: 72px; }
+  .paid .via { font-family: "Courier New", Courier, monospace; font-weight: bold; color: var(--ink);
+               font-size: 42px; line-height: 1.15; margin-top: 10px; }
+  .paid .via .name { font-family: "Arial Black", Arial, sans-serif; font-size: 60px; }
+  .foot { font-size: 42px; }
+</style></head>
+<body>
+<div class="paper">
+  <div class="top">
+    <div>
+      <div class="org">LEONIDA<br>COUNTY JAIL</div>
+      <div class="sub">BAIL RECEIPT · INMATE: ME</div>
+      <div class="wanted">WANTED LEVEL <span class="stars">★★★★★</span></div>
+    </div>
+    <div class="stamp">BUSTED</div>
+  </div>
+  <div class="rule"></div>
+  <div class="row"><span>WAITED 13 YEARS FOR GTA 6</span><b>TIME SERVED</b></div>
+  <div class="row"><span>RESISTING 2 DELAYS</span><b>$0.00</b></div>
+  <div class="row"><span>FAKING SICK, LAUNCH WEEK</span><b>$500.00</b></div>
+  <div class="row"><span>LOITERING AT 99% OF 214 GB</span><b>$214.00</b></div>
+  <div class="row hot"><span>FLORIDA MAN STUFF, LEONIDA</span><b>$999,999.99</b></div>
+  <div class="row"><span>GRAND THEFT AUTO, COUNT VI</span><b>$79.99</b></div>
+  <div class="rule"></div>
+  <div class="total"><span>BAIL</span><span>$1,000,793.98</span></div>
+  <div class="paid">
+    <img src="../../assets/mark.svg" alt="make.fun ghost">
+    <div>
+      <div class="say">BAIL POSTED BY<br>MY AI AGENT</div>
+      <div class="via">with its <span class="name">make.fun</span><br>bounty winnings</div>
+    </div>
+  </div>
+  <div class="foot" style="white-space:nowrap">Out on launch day. Do not leave Vice City.</div>
+</div>
+</body></html>
