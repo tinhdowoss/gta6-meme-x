@@ -1,0 +1,54 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Save the date: me and GTA 6</title>
+<style>
+  html, body { margin: 0; width: 1440px; height: 1440px; overflow: hidden; }
+  body {
+    background: linear-gradient(160deg, #ff7eb3 0%, #ff9a6b 45%, #3ad1c9 100%);
+    font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; color: #191419;
+  }
+  .card {
+    position: absolute; left: 70px; top: 70px; width: 1300px; height: 1300px; box-sizing: border-box;
+    background: #fffaf2; border-radius: 28px; box-shadow: 0 30px 60px rgba(40,0,30,.35);
+    padding: 56px 70px; text-align: center;
+  }
+  .card::before { content: ''; position: absolute; inset: 26px; border: 6px double #c41c83; border-radius: 16px; pointer-events: none; }
+  .save { font-family: 'Snell Roundhand', 'Brush Script MT', cursive; font-weight: 700; font-size: 124px; color: #c41c83; line-height: 1; margin-top: 4px; }
+  .names { font-family: 'Didot', 'Bodoni 72', Georgia, serif; font-weight: 700; font-size: 180px; line-height: 1.02; margin-top: 6px; letter-spacing: 2px; }
+  .names .amp { color: #c41c83; }
+  .since { font-size: 60px; font-weight: 700; margin-top: 0; }
+  .dates { margin-top: 18px; }
+  .old { font-family: 'Avenir Next Condensed', sans-serif; font-weight: 600; font-size: 84px; color: #4a4247; position: relative; display: inline-block; margin: 0 26px; }
+  .old::after { content: ''; position: absolute; left: -10px; right: -10px; top: 54%; height: 8px; background: #e0212f; transform: rotate(-4deg); border-radius: 4px; }
+  .new { font-family: 'Avenir Next Condensed', 'Avenir Next', sans-serif; font-weight: 800; font-size: 150px; line-height: 1.05; letter-spacing: 1px; }
+  .venue { font-size: 54px; font-weight: 600; }
+  .venue b { font-weight: 800; }
+  .rule { height: 6px; background: #c41c83; opacity: .25; margin: 22px 30px 0; border-radius: 3px; }
+  .best { position: absolute; left: 90px; bottom: 70px; width: 720px; text-align: left; }
+  .best .k { font-size: 60px; font-weight: 800; line-height: 1.1; }
+  .best .s { font-size: 52px; font-weight: 600; line-height: 1.15; margin-top: 2px; }
+  .best .v { font-family: 'Avenir Next Condensed', sans-serif; font-weight: 800; color: #c41c83; line-height: .95; margin-top: 4px; white-space: nowrap; }
+  .best .v .amt { font-size: 150px; }
+  .best .v .src { font-size: 84px; }
+  .ghost { position: absolute; right: 64px; bottom: 66px; width: 420px; height: 354px; }
+</style></head>
+<body>
+  <div class="card">
+    <div class="save">Save the Date</div>
+    <div class="names">ME <span class="amp">&amp;</span> GTA 6</div>
+    <div class="since">engaged since 2013</div>
+    <div class="dates">
+      <span class="old">Fall 2025</span><span class="old">May 26, 2026</span>
+      <div class="new">NOV 19, 2026</div>
+    </div>
+    <div class="venue">Venue: <b>Leonida</b> · RSVP: <b>214 GB</b> free</div>
+    <div class="rule"></div>
+    <div class="best">
+      <div class="k">Best man: my AI agent</div>
+      <div class="s">paid for the honeymoon:</div>
+      <div class="v"><span class="amt">+$250</span></div>
+      <div class="v"><span class="src">make.fun bounty</span></div>
+    </div>
+    <div class="ghost" data-ghost data-bowtie data-tilt="-4"></div>
+  </div>
+  <script src="ghost.js"></script>
+</body></html>

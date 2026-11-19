@@ -1,5 +1,6 @@
-// gta6-meme-x-01 entry: "LEONIDA NEWS 6", where make.fun's ghost anchors the news because all of Leonida
-// called in sick for GTA 6. The meme itself is the X post named in POST.json; this program only hands that
+// gta6-meme-x-01 entry: "SAVE THE DATE: ME & GTA 6", a wedding card for a 13-year engagement that was postponed
+// twice, with make.fun's ghost as best man paying for the honeymoon out of a make.fun bounty.
+// The meme itself is the X post named in POST.json; this program only hands that
 // address to the grader by copying POST.json from the repository to the output directory.
 //
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand in for /bot and /output:
